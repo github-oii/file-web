@@ -41,10 +41,10 @@ The current method of sharing files involves sharing file as chunks of ArrayBuff
 The project is divided into the backend and the frontend.
 
 ### Backend
-Backend code is present on this repo [Backend](https://github.com/vegh-fileshare/Backend) the server.js file contains all the socket connection code. It is built on `express` and `socket.io` which allows usage of WebSockets and WebRTC.There are different routes for admin panel and database connections.
+Backend code is present on this repo [Backend](https://github.com/github-oii/Backend) the server.js file contains all the socket connection code. It is built on `express` and `socket.io` which allows usage of WebSockets and WebRTC.There are different routes for admin panel and database connections.
 
 ### Frontend
-The frontend code is  present on this repo [Frontend](https://github.com/vegh-fileshare/Frontend). Once the frontend is built for production (using npm run build), all the built files are stored in `build` folder which can be deployed along with the server code.
+The frontend code is  present on this repo [Frontend](https://github.com/github-oii/Frontend). Once the frontend is built for production (using npm run build), all the built files are stored in `build` folder which can be deployed along with the server code.
 
 #### `static` folder
 This folder is used to store the static files such as images, fonts, and JavaScript files that shouldn't be bundled with the rest of the code.
@@ -59,13 +59,13 @@ Build process is setup using NPM run build. It builds the app for production to 
 Thanks for contributing to Vegh! Make sure to **Fork** this repository into your account before making any commits. Then use the following commands to set up the project
 ### Frontend
 ```bash
-git clone https://github.com/vegh-fileshare/Frontend.git
+git clone https://github.com/github-oii/Frontend.git
 npm install
 ```
 
 ### Backend
 ```bash
-git clone https://github.com/vegh-fileshare/Backend.git
+git clone https://github.com/github-oii/Backend.git
 npm install
 ```
 
